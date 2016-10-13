@@ -54,19 +54,3 @@ cacheSolve <- function(x, ...) {
   inv
         ## Return a matrix that is the inverse of 'x'
 }
-
-# call
-source("C:/Users/Duc Nguyen/Documents/GitHub/ProgrammingAssignment2/cachematrix.R")
-my_matrix <- makeCacheMatrix(matrix(c(7,3,5,11), 2,2))
-my_matrix$get()
-my_matrix$getInv()
-
-cacheSolve(my_matrix)
-cacheSolve(my_matrix)
-my_matrix$getInv()
-
-my_matrix$set(matrix(c(2,2,1,4,2,3,6,4,8), 3,3))
-my_matrix$getInv()
-cacheSolve(my_matrix)
-cacheSolve(my_matrix)
-my_matrix$getInv()
